@@ -1,24 +1,7 @@
-# README
+# Learning Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using free books from [learn-rails.com](http://learn-rails.com).
 
-Things you may want to cover:
+ - Highly recommend checking it out. Daniel Kehoe teaches simply the basics of software dev with Rails
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - This is the example app from those books.  Easily can ge completed in a day or two!

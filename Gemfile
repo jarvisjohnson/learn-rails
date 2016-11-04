@@ -11,13 +11,13 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
-	gem 'byebug', platform: :mri
+  gem 'byebug', platform: :mri
 end
 group :development do
-	gem 'web-console'
-	gem 'listen', '~> 3.0.5'
-	gem 'spring'
-	gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'web-console'
+  gem 'listen', '~> 3.0.5'
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 # learn-rails
@@ -26,10 +26,14 @@ gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
 group :development do
-	gem 'sqlite3'	
-	gem 'better_errors'
-	gem 'rails_layout'
+  gem 'sqlite3'
+  gem 'better_errors'
+  gem 'rails_layout'
 end
 group :production do
-	gem 'pg'
+  gem 'pg'
+end
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
 end
